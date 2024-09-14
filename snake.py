@@ -1,20 +1,3 @@
-"""
-Snake Xenzia Game
-
-This script implements an enhanced version of the classic Snake game using Pygame.
-Features include adjustable speed, difficulty levels, power-ups, and more.
-
-Requirements:
-- Python 3.x
-- Pygame library
-
-To run the game, execute this script and use the menu to start the game.
-Use arrow keys to control the snake during gameplay.
-
-Author: Claude
-Date: September 13, 2024
-"""
-
 import pygame
 import random
 import sys
@@ -30,7 +13,7 @@ GRID_HEIGHT = HEIGHT // GRID_SIZE
 DEFAULT_SPEED = 10
 MIN_SPEED = 5
 MAX_SPEED = 20
-POWER_UP_DURATION = 300  # Frames the power-up effect lasts
+POWER_UP_DURATION = 300
 
 # Colors
 WHITE = (255, 255, 255)
