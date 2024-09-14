@@ -12,6 +12,7 @@
 - [Settings](#settings)
 - [Power-Ups](#power-ups)
 - [Contributing](#contributing)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Overview
@@ -39,6 +40,7 @@ Make sure you have Python 3.x and the Pygame library installed:
 
 1. Install Python 3 from the [official website](https://www.python.org/downloads/).
 2. Install Pygame using pip:
+
    ```bash
    pip install pygame
    ```
@@ -95,26 +97,38 @@ During gameplay, you'll encounter random power-ups that give you temporary benef
 
 Power-ups spawn with a 10% chance after consuming food and last for a limited number of frames.
 
+## Contributors
+
+Thanks to these wonderful people who have contributed to the project:
+
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Contributing
 
 Contributions are welcome! If you'd like to enhance the game, feel free to fork the repository and submit a pull request.
 
-### How to Contribute:
+### How to Contribute
 
 1. Fork the repository.
 2. Create a new branch:
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
+
 3. Make your changes.
 4. Commit and push your changes:
+
    ```bash
    git commit -m "Add feature"
    git push origin feature/your-feature-name
    ```
+
 5. Open a pull request for review.
 
 Possible areas for contributions:
+
 - Add more power-ups (e.g., slow motion, double points).
 - Improve the visual design and sound effects.
 - Implement additional levels or snake skins.
