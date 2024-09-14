@@ -1,116 +1,124 @@
-# Snake Game
+# Snake Xenzia Game
 
-Snake Game is a modernized version of the classic Snake game, built using Python and Pygame. It features multiple enhancements, including speed adjustments, difficulty levels, power-ups, and a settings menu for customization.
+**Snake Xenzia Game** is a modern remake of the classic Snake game, developed using Python and Pygame. This version introduces various new features such as power-ups, adjustable speed, and customizable settings to enhance gameplay.
 
 ## Table of Contents
 
-- Features
-- Requirements
-- Installation
-- Usage
-- Gameplay
-- Power-Ups
-- Settings
-- Contributing
-- License
+- [Overview](#overview)
+- [Features](#features)
+- [Game Preview](#game-preview)
+- [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Settings](#settings)
+- [Power-Ups](#power-ups)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This project is a customizable version of the famous Snake game, where the player controls a snake to consume food, grow longer, and avoid obstacles. As the game progresses, the difficulty increases, and power-ups can be collected to provide temporary advantages. The game includes a high score system and settings to adjust gameplay features like speed and wall collisions.
 
 ## Features
 
-- Classic Snake Gameplay: Navigate the snake to eat food and grow longer without colliding with walls or itself.
-- Power-Ups: Collect special power-ups like speed boosts and invincibility.
-- Difficulty Levels: As your score increases, the game becomes progressively harder.
-- Customizable Settings: Adjust speed, toggle wall collisions, and more.
-- High Score Tracking: The game saves and displays your highest score.
-- Responsive Menu: Start the game, adjust settings, and quit from an intuitive menu.
+- **Classic Gameplay**: A modern take on the well-known Snake game.
+- **Power-Ups**: Speed boost and invincibility to enhance the gameplay experience.
+- **High Score System**: Your highest score is saved and displayed in-game.
+- **Customizable Settings**: Toggle walls, adjust speed, and more.
+- **Responsive Menu**: Start the game, adjust settings, or quit via a sleek menu interface.
+- **Progressive Difficulty**: As your score increases, so does the challenge.
 
-## Requirements
+## Game Preview
 
-To run this game, you'll need the following:
-
-- Python 3.x
-- Pygame library
+![Game Screenshot](screenshot/screenshot.png)
 
 ## Installation
 
-1. Clone the repository:
-    ```
-    git clone https://github.com/maliksaqibahmad/snake-game.git
-    cd snake-game
-    ```
+### Prerequisites
 
-2. Install the required dependencies:
-    ```
-    pip install pygame
-    ```
+Make sure you have Python 3.x and the Pygame library installed:
 
-## Usage
+1. Install Python 3 from the [official website](https://www.python.org/downloads/).
+2. Install Pygame using pip:
+   ```bash
+   pip install pygame
+   ```
 
-To start the game, run the script:
+### Clone the Repository
 
+To get started, clone the repository and navigate to the project folder:
+
+```bash
+git clone https://github.com/maliksaqibahmad/snake-game.git
+cd snake-game
 ```
+
+### Run the Game
+
+After cloning the repository, run the game by executing the following command:
+
+```bash
 python snake.py
 ```
 
-Once the game starts, you can navigate the main menu to start the game, adjust settings, or quit.
+## How to Play
 
-## Gameplay
+- Use the **arrow keys** to control the snake (Up, Down, Left, Right).
+- The goal is to eat the food (red squares) and grow the snake longer.
+- Avoid running into the walls or your own body.
+- Collect power-ups for temporary boosts.
 
-- Controls: 
-  - Use the arrow keys to control the snake's movement (Up, Down, Left, Right).
-  - Try to eat the red food to grow longer and score points.
-  - Avoid running into the walls (if walls are enabled) or yourself.
-  - The game ends if you crash into a wall or yourself.
+### Controls
 
-- Scoring: 
-  - Each piece of food increases your score by 1 point.
-  - Your score and the high score are displayed on the screen.
+- **Arrow Keys**: Control snake's movement.
+- **ESC**: Return to the main menu during gameplay.
 
-- Game Over: 
-  - The game will return to the main menu after the game is over.
+### Scoring
 
-## Power-Ups
-
-Occasionally, special power-ups appear on the screen, indicated by different colors:
-
-- Speed Boost (Blue): Increases the snake's speed for a limited time.
-- Invincibility (Yellow): Makes the snake immune to collisions for a short duration.
+- Every time you eat a piece of food, your score increases by 1.
+- Your current score and high score will be displayed on the game screen.
 
 ## Settings
 
-The game includes a settings menu where you can adjust the following:
+You can customize the game through the settings menu, accessible from the main menu.
 
-- Toggle Walls: Enable or disable wall collisions (default is ON).
-- Adjust Speed: Increase or decrease the snake's movement speed (range from 5 to 20).
+### Adjustable Options
 
-To access the settings:
+- **Toggle Walls**: Turn wall collisions on or off. If turned off, the snake will wrap around the screen edges.
+- **Speed**: Adjust the game speed, with a range from 5 (slow) to 20 (fast).
 
-1. Select "Settings" from the main menu.
-2. Use the buttons to toggle walls or adjust speed.
-3. Press "Back" to return to the main menu.
+## Power-Ups
+
+During gameplay, you'll encounter random power-ups that give you temporary benefits:
+
+- **Speed Boost (Blue)**: Increases your snake's speed.
+- **Invincibility (Yellow)**: Makes your snake immune to walls and its own body for a short period.
+
+Power-ups spawn with a 10% chance after consuming food and last for a limited number of frames.
 
 ## Contributing
 
-If you want to contribute to this project, please follow these steps:
+Contributions are welcome! If you'd like to enhance the game, feel free to fork the repository and submit a pull request.
+
+### How to Contribute:
 
 1. Fork the repository.
 2. Create a new branch:
-    ```
-    git checkout -b feature/your-feature-name
-    ```
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 3. Make your changes.
-4. Commit your changes:
-    ```
-    git commit -m "Add feature or fix description"
-    ```
-5. Push to the branch:
-    ```
-    git push origin feature/your-feature-name
-    ```
-6. Open a pull request.
+4. Commit and push your changes:
+   ```bash
+   git commit -m "Add feature"
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request for review.
 
-### Ideas for Contributions
+Possible areas for contributions:
+- Add more power-ups (e.g., slow motion, double points).
+- Improve the visual design and sound effects.
+- Implement additional levels or snake skins.
 
-- Add more power-ups (e.g., slow motion, double score).
-- Improve visuals and add sound effects.
-- Create additional levels or themes.
-- Implement multiplayer mode.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
